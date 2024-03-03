@@ -34,11 +34,23 @@ button {
     height: 400px;
     transition: 0.4s;
     background: #707070;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start; 
 }
+
 button:hover {
     transform: scale(1.1);
 }
-img {
+
+img[id="Jeux"] {
     width: 150px;
-    align-items: start;
+    height: 100px;
+}
+
+h2 {
+    color: white;
+    font-size: 25px; 
+    margin-top: 10px;
 }
