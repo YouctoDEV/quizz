@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+body {
+    background: #333;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    min-height: 200vh;
+}
+.box {
+    border: solid 6px #333;
+    transition: 0.25s ease;
+    background: #7e7e7e;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+p {
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+    opacity: 0;
+    transition: 0.6s;
+}
+button {
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.reponse {
+    visibility: visible;
+    opacity: 1;
+    border: none;
+}
+.container-point {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(20, 20, 20); 
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    border-radius: 6px;
+
+}
+.style-point {
+    font-size: 50px;
+}
+button[id="btn5"] {
+    width: 100px;
+}
+button[id="btn6"] {
+    width: 100px;
+}
+.validate {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; /* Ajoutez un espacement interne selon vos besoins */
+}
+button[id="valider"] {
+    background: #005004;
+    width: 125px;
+    height: 50px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2[id="score"] {
+    visibility: hidden;
+}
