@@ -51,10 +51,13 @@ button {
 .style-point {
     font-size: 50px;
 }
-button[id="btn5"] {
+button[id="btn7"] {
     width: 100px;
 }
-button[id="btn6"] {
+button[id="btn8"] {
+    width: 100px;
+}
+button[id="btn9"] {
     width: 100px;
 }
 .validate {
